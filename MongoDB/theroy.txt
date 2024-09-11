@@ -1,0 +1,40 @@
+MONGODB -> No Sql Database
+
+Db Server -> DataBase -> Collection -> Documents
+
+In MongoDb -> all data stored in documents in json format evvery data have  primary key we say unique object id
+
+diffrence 
+
+SQL databases 
+
+DB server -> Databases -> Tables -> Record in a Row
+
+
+go to mongodb.com -> go product -> community edition -> download 
+open folder -> bin -> mongod -> open in cmd and add this path into env
+
+
+tools -> mongodb compass -> doenload
+tools -> mongodb Shell -> Download
+open zip file  -> bin -> mongosh and make path also
+
+
+Run Commands -> 
+mongod
+mongosh  and then write commands
+
+
+Mongo atlas  -> Cloud database when we deploy the application then we have to use mongo atlas
+
+firstly we have to register into it.
+
+https://www.mongodb.com/cloud/atlas/register
+
+harshitaggrawal804 -- db user
+FRw6SiBm1mA4Lspb -- db pass
+
+
+mongosh "mongodb+srv://harshit.mq1fl.mongodb.net/" --apiVersion 1 --username harshitaggrawal804  run this into shell 
+
+for  compass->  mongosh "mongodb+srv://harshit.mq1fl.mongodb.net/" --apiVersion 1 --username harshitaggrawal804  change pass  to pasword and run into mongodb compass

@@ -1,0 +1,2 @@
+MOngoose  is used to connect db from the node js 
+follow steps from -> https://mongoosejs.com/docs/index.html

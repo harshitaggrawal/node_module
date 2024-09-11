@@ -1,0 +1,42 @@
+1.  Basic and importance of node 
+
+2. Modules 
+
+    i. Basic
+    ii. module
+
+3. Core Modules
+
+    i. path
+    ii. Operating system 
+    iii. file
+    iv. Event
+    
+4. Server
+    i. index.js
+    ii. Mini Project
+
+
+5. Express js
+    i. index.js -> according to topic wise
+
+
+6. Rest Api
+
+7. MVC
+
+8. project Express
+
+9. MongoDB or mongodb atlas
+    i. Theory.txt 
+
+10. Mongoose
+
+11. react with node -> frontend , backend 
+frontend react se bnanaa h   sara usme node ki api jo bnaye h vo use karne h sare create, read and all jo bhi sab api se or uski build bnanae h 
+
+backend me sare api bnane h usko react app me use karna h axios  package ke sath or cros  package bhi use karna port cofilct ke liye or reacct ki build usme upload krke bass static middle ware me build likh dena h or ak server route bana dena build ki index.html tak bass connection or router sare same chl jayegwe react ke  or node ke 
+bas react ke routes or nodes ke router deffrenr name se hone chiye 
+
+12. 
+    

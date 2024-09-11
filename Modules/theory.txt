@@ -1,0 +1,99 @@
+//? Basic module
+
+module is used to share variable,function and class from one file to another file.
+we use to object in module ..
+1. exports -> what we want to send from file   
+It pass the data into an object
+  syntax:  module.exports={
+    key:value,
+    arr,
+    function,
+    className
+  }
+2. imports -> where we want to use exports data 
+
+then it comes into an objecct 
+
+const importObjectOFData=require('path of file ');
+then it comes into an object we can use it by destuct into an single single elements 
+
+
+Note:  those file we are importing then firtly it execute all the code of this file after that it execute another file coode
+means we execute  two file from one files..
+
+
+
+3. defaults exports
+
+
+for export 
+module.exports={
+    default:items
+} 
+
+
+for import 
+const items =require('./index').default;
+
+why we use this ?
+
+we use this to pass same as datatype  dont make any object to pass any data we can use simply data 
+but if we using then we can pass only one either variable, function or class...
+
+
+# renaming
+
+
+//! Export Renameing
+module.exports={
+    i: items,
+    f: testing,
+    cl: myclass
+ 
+}
+
+
+Import renaming
+const  {items:i,testing:t,myclass:c}=require('./index');
+
+
+
+
+
+MODULE -> package  those we can use anywhere in an entire project
+means entry point of  node 
+
+1. npm init
+2. add a key to use module impost export into module package.json
+  "type": "module"  
+
+if we are  using module then we can use import expost as like 
+
+i. export
+
+
+ export{
+     items
+      }
+
+
+ Renaming
+export{
+    items as i
+}
+
+ii. import 
+
+import { i } from "./items.js";  extension of file is important
+
+
+Renaming
+import { i as items  } from "./items.js";
+
+
+default export
+
+exports default dataname;
+
+import dataname from 'filenme.extension';
+
